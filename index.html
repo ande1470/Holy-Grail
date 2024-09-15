@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <p>his positions the header within the normal flow of the document but allows for further positioning adjustments if needed.</p>
+        </header>
+        <nav class="nav">
+            <p>This removes the navigation bar from the normal document flow, positioning it based on the top and left properties. It stays in the top-left corner of the grid cell defined by grid-row and grid-column.</p>
+        </nav>
+        <main class="main">
+            <p>The main content area stays in the normal document flow but can be adjusted within its grid cell. It aligns next to the sidebar and takes up the remaining space in its grid cell.</p>
+        </main>
+        <aside class="sidebar">
+            <p>This positions the sidebar relative to the container. The right and top properties fix it to the right and top edges of the container, respectively. It is also fixed in width and height, ensuring it stays in place.</p>
+        </aside>
+        <footer class="footer">
+            <p> Similar to the header, it aligns at the bottom of the container and spans the full width. It remains in the normal document flow but can be adjusted as needed.</p>
+        </footer>
+    </div>
+</body>
+</html>
